@@ -9,11 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # Kalau build gagal karena versi tidak ditemukan,
-  # buka pub.dev/packages/just_audio dan pub.dev/packages/file_picker,
-  # ganti ke versi stable terbaru
   just_audio: ^0.9.40
-  file_picker: ^8.1.2
+  file_picker: ^10.3.3
 
 flutter:
   uses-material-design: true
